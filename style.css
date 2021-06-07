@@ -137,7 +137,6 @@ footer p {
 /* -------  Media Query ------- */
 
 @media all and (min-width: 480px) {
-  
   /* -------  Navigation ------- */
   header {
     display: flex;
@@ -163,23 +162,24 @@ footer p {
   form input {
     margin-bottom: 20px;
     width: 90%;
-}
+  }
 
   .form {
     flex-direction: column;
   }
-/* -------  groups & items  ------- */
+
+  /* -------  groups & items  ------- */
   .group {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-  
+
   .item {
     flex: 1;
     margin: 10px;
   }
-  
+
   .item-double {
     flex: 2;
   }

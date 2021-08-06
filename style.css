@@ -27,8 +27,12 @@ section {
 }
 
 section.alternate-background {
-  background-color: #00a699;
-  color: #fff;
+  background-color: #3d2c2e;
+  color: #f5edf0;
+}
+
+img {
+  border-radius: 2%;
 }
 
 main img {
@@ -54,7 +58,7 @@ main img {
 /* -------  Navigation ------- */
 
 header {
-  background-color: #ff385c;
+  background-color: #886f68;
   padding: 20px 20px 0 20px;
   text-align: center;
 }
@@ -64,7 +68,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #f5edf0;
   text-decoration: none;
   padding: 0 20px 0 0;
 }
@@ -85,16 +89,16 @@ header nav ul {
 }
 
 .logo {
-  font-family: "Pangolin", cursive;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 60px;
   margin: 0;
-  color: #fff;
+  color: #f5edf0;
 }
 
 /* -------  Search Form ------- */
 
 form {
-  border: 2px solid #ff385c;
+  border: 2px solid #886f68;
   padding: 10px;
 }
 
@@ -109,9 +113,10 @@ form input {
 }
 
 form button {
-  background-color: #ff385c;
+  background-color: #886f68;
   border: none;
-  color: #fff;
+  border-radius: 4%;
+  color: #f5edf0;
   font-size: 24px;
   padding: 15px;
   width: 100%;
@@ -125,11 +130,11 @@ form button {
 /* -------  Footer ------- */
 
 footer {
-  background-color: #ff385c;
+  background-color: #886f68;
 }
 
 footer p {
-  color: #fff;
+  color: #f5edf0;
   text-align: center;
   padding: 20px;
 }
